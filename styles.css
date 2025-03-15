@@ -99,7 +99,28 @@ header p {
 .buttons {
     margin-top: 20px;
 }
+/* 友情链接 */
+.friend-links-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
 
+.friend-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6f61;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+
+.friend-link:hover {
+    background-color: #ff3b2f;
+    transform: translateY(-3px);
+}
 /* 页脚 */
 footer {
     background-color: #333;
